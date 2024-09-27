@@ -15,10 +15,13 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    backgroundImage: {
+                        'custom-color': 'linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0) 100%)',
                     }
                 }
             }
-        }
+        } 
     </script>
     <!-- google fonts eb garamond -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,25 +35,18 @@
     </style>
 </head>
 
-<body class="container mx-auto">
-    <header class="">
-        <div class="navbar bg-base-100 lg:px-20">
+<body class="eb-garamond">
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100 lg:px-24 py-10">
             <div class="flex-1">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
-                      </div>
+                    </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <a>Home</a>
@@ -58,7 +54,7 @@
                         <a>Cases ></a>
                         <a>Blog ></a>
                         <a>Contact Us ></a>
-                        <a><button class="btn mt-2 bg-[#B68C5A]">Free Consultation</button></a>
+                        <a><button class="btn mt-2 bg-[#B68C5A] text-white">Free Consultation</button></a>
                     </ul>
                 </div>
                 <a class="btn btn-ghost text-xl">
@@ -66,19 +62,38 @@
                 </a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal lg:gap-7 lg:px-36 items-center">
+                <ul class="menu menu-horizontal text-base lg:gap-7 lg:px-10 lg:pr-48">
                     <a>Home</a>
                     <a>Services ></a>
                     <a>Cases ></a>
                     <a>Blog ></a>
                     <a>Contact Us ></a>
-                    <button class="btn ml-16 bg-[#B68C5A]">Free Consultation</button>
                 </ul>
             </div>
+            <div class="">
+                <button class="btn hidden mr-5 lg:block bg-[#B68C5A] text-white">Free Consultation</button>
+            </div>
         </div>
+        <!-- hero/banner section -->
+        <section class="mx-2 lg:mx-28">
+            <div class="hero lg:min-h-[550px] sm:min-h-[300px] w-full rounded-lg bg-cover bg-center" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-30 rounded-lg"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="lg:max-w-md">
+                        <h1 class="lg:mb-5 text-3xl lg:text-5xl font-extrabold text-white">We Provide Effective Legal Solutions</h1>
+                        <p class="text-xs lg:text-base lg:mb-5 text-white">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                        </p>
+                        <input type="text" class="w-[100px] h-[20px] rounded-md bg-gray-100 flex-shrink lg:w-[300px] lg:h-[40px] lg:rounded-lg lg:bg-white">
 
+                        <button class="pl-2 pr-2 m-2 lg:p-[10px] lg:px-4 lg:m-1 lg:mx-2 lg:text-base rounded-md text-sm bg-blue-700">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
+        <!-- The legal practice area -->
 
     </main>
     <footer>
