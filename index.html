@@ -100,7 +100,7 @@
     </header>
     <main>
         <!-- The legal practice area -->
-        <section class="container mx-auto pt-28 px-2 pb-20">
+        <section class="container mx-auto px-4 pt-28 pb-20">
             <h2 class="text-4xl font-extrabold text-center">The Legal Practice Area</h2>
             <div class="">
                 <p class="text-center pt-6 pb-16 max-w-full">
@@ -111,9 +111,9 @@
             </div>
             <!-- practice area cards -->
             <div
-                class="grid grid-cols-1 mx-4 md:grid-cols-2 lg:grid-cols-3 lg:mx-14 lg:divide-x-[1px] lg:divide-y-[1px] divide-y-2 md:divide-y-2 md:divide-x-2 md:mr-5">
+                class="grid mx-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-14 lg:divide-x-[1px] lg:divide-y-[1px] divide-y-2 md:divide-y-2 md:divide-x-2 md:mr-5">
                 <!-- 1st card -->
-                <div class="card bg-base-100 w-96 shadow-xl rounded-none">
+                <div class="card bg-base-100 shadow-xl rounded-none">
                     <figure class="px-10 pt-10">
                         <img src="images/business.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <!-- 2nd card -->
-                <div class="card bg-base-100 w-96 bg-gradient-to-b from-slate-100 to-white rounded-none">
+                <div class="card bg-base-100  bg-gradient-to-b from-slate-100 to-white rounded-none">
                     <figure class="px-10 pt-10">
                         <img src="images/criminal.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <!-- 3rd card -->
-                <div class="card bg-base-100 w-96 shadow-xl !border-t-0 rounded-none">
+                <div class="card bg-base-100  shadow-xl !border-t-0 rounded-none">
                     <figure class="px-10 pt-10">
                         <img src="images/child.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <!-- 4th card -->
-                <div class="card bg-base-100 w-96 lg:!border-l-0 shadow-xl rounded-none">
+                <div class="card bg-base-100  lg:!border-l-0 shadow-xl rounded-none">
                     <figure class="px-10 pt-10">
                         <img src="images/education.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <!-- 5th card -->
-                <div class="card bg-base-100 w-96 shadow-xl rounded-none">
+                <div class="card bg-base-100  shadow-xl rounded-none">
                     <figure class="px-10 pt-10">
                         <img src="images/divorce.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <!-- 6th card -->
-                <div class="card bg-base-100 w-96 shadow-xl rounded-none">
+                <div class="card bg-base-100  shadow-xl rounded-none">
                     <figure class="px-10 pt-10">
                         <img src="images/tax.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -201,56 +201,63 @@
         </section>
         <!-- what our client say -->
         <section class="container mx-auto pt-28 pb-20">
-            <h3 class="text-center text-3xl lg:text-5xl font-bold">What Our Client Say</h3>
+            <h3 class="text-center text-3xl lg:text-5xl font-bold">What Our Clients Say</h3>
             <p class="pt-6 text-center lg:px-96 px-3">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour.
             </p>
+            <!-- carousel container -->
             <div>
                 <!-- Carousel Items -->
-                <div class="carousel w-full relative mt-12 bg-black">
+                <div class="carousel lg:mx-36 sm:mx-6 md:mx-8 w-full relative mt-12">
                     <!-- Text or other content above the carousel -->
-                    <div
-                        class="absolute inset-0 flex items-center justify-center text-white bg-opacity-70 p-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white bg-[#111111E6] bg-opacity-70 p-4">
                         <div class="text-center">
-                            <h1 class="text-2xl font-bold">Your Heading Here</h1>
-                            <p class="text-lg">Some additional descriptive text can go here.</p>
+                            <div class="flex justify-center pb-4">
+                                <img src="images/carousel-photo.jpg" alt="" class="w-20 h-20 rounded-full">
+                            </div>
+                            <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold">Awlad Hossain</h1>
+                            <p class="text-sm sm:text-base">UIX Designer</p>
+                            <p class="text-xs sm:text-base px-4 md:px-10 lg:px-10">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         </div>
                     </div>
+            
                     <!-- 1st carousel -->
                     <div class="carousel-item relative w-full" id="slide1">
-                        <img src="images/slider-1.jpg"
-                            class="w-full h-[500px] opacity-70" />
+                        <img src="images/slider-1.jpg" class="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-center object-cover opacity-20" />
                         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                             <button class="btn btn-circle prev">❮</button>
                             <button class="btn btn-circle next">❯</button>
                         </div>
                     </div>
+            
+                    <!-- 2nd carousel -->
                     <div class="carousel-item relative w-full" id="slide2">
-                        <img src="images/slider-2.jpg"
-                            class="w-full h-[500px] opacity-70" />
+                        <img src="images/slider-2.jpg" class="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-center object-cover opacity-20" />
                         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                             <button class="btn btn-circle prev">❮</button>
                             <button class="btn btn-circle next">❯</button>
                         </div>
                     </div>
-                    <div class="carousel-item relative px-20 w-full" id="slide3">
-                        <img src="images/slider-3.jpg"
-                            class="w-full h-[500px] opacity-70" />
+            
+                    <!-- 3rd carousel -->
+                    <div class="carousel-item relative w-full" id="slide3">
+                        <img src="images/slider-3.jpg" class="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-center object-cover opacity-20" />
                         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <button class="btn mx-20 btn-circle prev">❮</button>
-                            <button class="btn mx-20 btn-circle next">❯</button>
+                            <button class="btn btn-circle prev">❮</button>
+                            <button class="btn btn-circle next">❯</button>
                         </div>
                     </div>
+            
                     <!-- Carousel Indicators -->
-                    <div
-                        class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex justify-center w-full py-2 gap-4">
+                    <div class="absolute bottom-4 flex justify-center w-full py-2 gap-4">
                         <button class="indicator bg-gray-500 w-8 h-1"></button>
                         <button class="indicator bg-gray-500 w-8 h-1"></button>
                         <button class="indicator bg-gray-500 w-8 h-1"></button>
                     </div>
                 </div>
-
+            </div>
+            
 
         </section>
 
