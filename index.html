@@ -385,9 +385,44 @@
         </section>
 
     </main>
-    <footer>
-
+    <!-- footer -->
+    <footer class="footer bg-black text-[#CFCFCF] text-base-content lg:p-10 p-5">
+        <!-- Use flex and justify-evenly here -->
+        <div class="flex flex-col lg:flex-row justify-evenly gap-6 w-full">
+            <nav class="space-y-4 px-4">
+                <img src="images/logo.png" alt="">
+                <p class="max-w-48">There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour.</p>
+            </nav>
+            <div class="grid grid-cols-2 space-x-10 pt-2 px-4">
+                <nav class="flex flex-col space-y-2">
+                    <h6 class="text-xl text-white">Company</h6>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav class="flex flex-col space-y-2">
+                    <h6 class="text-xl text-white">Legal</h6>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+            </div>
+            <form class="flex flex-col space-y-4 px-4">
+                <h6 class="text-xl text-white">Subscribe</h6>
+                <fieldset class="form-control w-80">
+                    <p class="pb-4">Subscribe for our latest & Articles. <br> We Won't Give You Spam Mails</p>
+                    <div class="join">
+                        <input type="text" placeholder="Email Address" class="input input-bordered join-item" />
+                        <button class="btn btn-primary join-item">Subscribe</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </footer>
+    
+    
 
 
 
